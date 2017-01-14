@@ -11,6 +11,7 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | b
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 sudo apt-get install cowsay -y
+sudo apt-get install expect -y
 sudo apt-get install cmake -y
 sudo apt-get install bc -y
 sudo apt-get install apache2 -y
